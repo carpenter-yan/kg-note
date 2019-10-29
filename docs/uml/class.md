@@ -1,7 +1,9 @@
 # 类图
 - 基本表示方式  
-在UML类图中，每一个矩形代表一个类。我们举一个简单的例子：  
-![车辆类图](/docs/uml/images/car_class.png)
+在UML类图中，每一个矩形代表一个类。我们举一个简单的例子：
+
+![车辆类图](https://github.com/carpenter-yan/kg-note/blob/master/docs/uml/images/car_class.png)
+
 这是一个代表车辆的类。 
 一般的类图分为三个部分。部分类图有五个部分。   
 第一部分为类名  
@@ -37,7 +39,7 @@ A类中有方法调用了B类中的静态方法。
 如果A指向B，则说明A类中有B类的成员变量。  
 
 5. 聚合关系使用如下箭头, 由整体指向部分。
-![聚合关系](https://github.com/carpenter-yan/kg-note/blob/master/docs/uml/images/aggregation.png)
+![聚合关系](/docs/uml/images/aggregation.png)
 如果A指向B，则说明A类中有B类的成员变量，但是与关联关系不同，A类和B类有逻辑关系。  
 A类是整体，B类是部分。A类由B类构成，同时B类即便不在A类中也可以单独存在。
 
