@@ -1,7 +1,7 @@
 # 类图
 - 基本表示方式  
 在UML类图中，每一个矩形代表一个类。我们举一个简单的例子：  
-![车辆类图](/images/car_class.png)  
+![车辆类图](/docs/uml/images/car_class.png)
 这是一个代表车辆的类。 
 一般的类图分为三个部分。部分类图有五个部分。   
 第一部分为类名  
@@ -21,21 +21,26 @@
 - 关系的表示方式
 1. 继承关系使用如下箭头, 由子类指向父类。  
 ![继承关系](/docs/uml/images/extends.png)
+
 2. 实现关系使用如下箭头, 由实现类指向接口。
 ![实现关系](/docs/uml/images/implements.png)
+
 3. 依赖关系使用如下箭头, 由使用者指向被使用者。  
-![依赖关系](/docs/uml/images/dependence.png)  
+![依赖关系](/docs/uml/images/dependence.png)
 如果A指向B，则说明A中使用了B，使用方式包括：  
 A类中有B类实例化对象的局部变量。  
 A类中有方法把B类实例化对象当做了参数，  
 A类中有方法调用了B类中的静态方法。
-4. 关联关系使用如下箭头, 由拥有者指向被拥有者。    
+
+4. 关联关系使用如下箭头, 由拥有者指向被拥有者。  
 ![关联关系](/docs/uml/images/associate.png)
 如果A指向B，则说明A类中有B类的成员变量。  
+
 5. 聚合关系使用如下箭头, 由整体指向部分。
-![聚合关系](https://github.com/carpenter-yan/kg-note/blob/master/docs/uml/images/aggregation.png)  
+![聚合关系](https://github.com/carpenter-yan/kg-note/blob/master/docs/uml/images/aggregation.png)
 如果A指向B，则说明A类中有B类的成员变量，但是与关联关系不同，A类和B类有逻辑关系。  
 A类是整体，B类是部分。A类由B类构成，同时B类即便不在A类中也可以单独存在。
+
 6. 组合关系使用如下箭头, 由整体指向部分。
 ![组合关系](/docs/uml/images/compose.png)
 如果A指向B，则说明A类中有B类的成员变量，但是与关联关系不同，A类和B类有逻辑关系。  
