@@ -2,8 +2,8 @@
 本项目旨在记录学习的知识点，便于后期回顾。
 
 ## UML统一建模语言
-- [用例图](docs/uml/usecase.md)
-- [类图](docs/uml/class.md)
+- [用例图](/docs/uml/usecase.md)
+- [类图](/docs/uml/class.md)
 
 ## Java语言
 - [语法](/docs/java/syntax.md)
