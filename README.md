@@ -3,7 +3,7 @@
 
 ## UML统一建模语言
 - [用例图](docs/uml/usecase.md)
-- [类图](doc/uml/class.md)
+- [类图](docs/uml/class.md)
 
 ## Java语言
 - [语法](/docs/java/syntax.md)
