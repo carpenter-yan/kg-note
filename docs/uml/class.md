@@ -1,4 +1,5 @@
 # 类图
+![外部链接](https://blog.csdn.net/ibukikonoha/article/details/80643959)
 - 基本表示方式  
 在UML类图中，每一个矩形代表一个类。我们举一个简单的例子：
 ![车辆类图](/docs/uml/images/car_class.png)
