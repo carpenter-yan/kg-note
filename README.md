@@ -5,17 +5,17 @@
 [UML类图总结（浅显易懂实用）](https://blog.csdn.net/ibukikonoha/article/details/80643959)
 
 ## Java语言
-- [语法](/docs/java/syntax.md)
+- 语法
 [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)
 
-- [容器](/docs/java/container.md)
+- 容器
 
-- [输入输出](/docs/java/io.md)
-[迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章](https://www.cnblogs.com/lixinjie/p/10811219.html)
+- 输入输出
+[IO/AIO讲的这么清楚的好文章](https://www.cnblogs.com/lixinjie/p/10811219.html)
 
-- [网络](/docs/java/network.md)
+- 网络
 
-- [多线程](docs/java/thread.md)
+- 多线程
 [线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)
 
 ## 设计模式
