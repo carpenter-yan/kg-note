@@ -72,5 +72,10 @@
 ## docker+k8s
 [10分钟看懂Docker和K8S](https://www.jianshu.com/p/f1f94c6968f5)  
 
-
+## 优秀资源
+[CS-Notes](https://github.com/CyC2018/CS-Notes)  
+[Java学习+面试指南](https://github.com/Snailclimb/JavaGuide)  
+[JCSprout](https://github.com/crossoverJie/JCSprout)  
+[ 互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)  
+[算法（第4版）](https://github.com/jimmysuncpt/Algorithms)  
 
