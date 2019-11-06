@@ -6,15 +6,30 @@
 
 ## Java语言
 ### 语法
-[java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)
+[Java命令详解](https://www.cnblogs.com/princessd8251/articles/4025140.html)  
+[java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)  
+[Java中的时间和日期处理](https://blog.csdn.net/wangdong5678999/article/details/81159690)  
+
 ### 容器
+[深入理解HashMap](https://www.cnblogs.com/fsmly/p/11235484.html)  
+[ArrayList集合实现RandomAccess接口有何作用？为何LinkedList集合却没实现这接口？](https://blog.csdn.net/weixin_39148512/article/details/79234817)  
+[hash算法详解](https://blog.csdn.net/xu_dongdong/article/details/80251936)
 
 ### 输入输出
-[IO/AIO讲的这么清楚的好文章](https://www.cnblogs.com/lixinjie/p/10811219.html)
+[迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章](https://www.cnblogs.com/lixinjie/p/10811219.html)  
 
 ### 网络
+[Java—网络编程总结（整理版）](https://www.cnblogs.com/swordfall/p/10781281.html)
+
 ### 多线程
-[线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)
+[线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)  
+
+## JVM
+[深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)
+
+### 其它
+[Java如何读取Excel行列](https://blog.csdn.net/yanglyangl429/article/details/51970810)  
+[JAVA面试题 请谈谈你对Sychronized关键字的理解？](https://www.cnblogs.com/marsitman/p/11235552.html)  
 
 ## 设计模式
 
@@ -26,7 +41,7 @@
 ### MyBatis
 ### Lombok
 [Lombok 介绍](https://blog.csdn.net/motui/article/details/79012846)  
-[Lombok介绍、使用方法和总结](https://www.cnblogs.com/heyonggang/p/8638374.html)
+[Lombok介绍、使用方法和总结](https://www.cnblogs.com/heyonggang/p/8638374.html)  
 
 ### JUnit+Mock
 [使用Powermock和mockito来进行单元测试](https://blog.csdn.net/u013428664/article/details/44095889)  
@@ -69,6 +84,7 @@
 [ElasticSearch5.6.8（四）数据操作 - 增删查改（JAVA API - TransportClient）](https://blog.csdn.net/g1969119894/article/details/80169055)  
 
 ## Dubbo分布式服务框架
+[一文带你实现RPC框架](https://www.cnblogs.com/endless-code/p/11235624.html)  
 
 ## Hive
 
@@ -87,4 +103,6 @@
 [JCSprout](https://github.com/crossoverJie/JCSprout)  
 [ 互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)  
 [算法（第4版）](https://github.com/jimmysuncpt/Algorithms)  
-
+[廖雪峰的官方网站](https://www.liaoxuefeng.com/)  
+[李新杰的博客园](https://www.cnblogs.com/lixinjie/)
+[Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)

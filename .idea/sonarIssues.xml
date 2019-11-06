@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-api/src/main/java/com/jd/jimi/pop/modules/detail/CpDataEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/impl/PromotionEsDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/README.md">
           <value>
             <set />
@@ -33,12 +43,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/DateFormatTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/IntegerTest.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/StringTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mall/mall-web/src/main/resources/conf/ump.properties">
           <value>
             <set />
           </value>
