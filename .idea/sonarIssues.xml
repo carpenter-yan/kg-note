@@ -8,6 +8,41 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../dubbo/dubbo-demo/dubbo-demo-api/src/main/java/com/alibaba/dubbo/demo/DemoService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo/dubbo-demo/dubbo-demo-consumer/src/main/java/com/alibaba/dubbo/demo/consumer/Consumer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo/dubbo-demo/dubbo-demo-provider/src/main/java/com/alibaba/dubbo/demo/provider/DemoServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo/dubbo-demo/dubbo-demo-provider/src/main/java/com/alibaba/dubbo/demo/provider/Provider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo/dubbo-demo/dubbo-demo-provider/src/main/resources/META-INF/spring/dubbo-demo-provider.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dubbo/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/window/impl/ImMessageServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-api/src/main/java/com/jd/jimi/pop/modules/detail/CpDataEvent.java">
           <value>
             <set />
@@ -19,6 +54,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/java/jvm1.md">
           <value>
             <set />
           </value>

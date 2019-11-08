@@ -9,6 +9,7 @@
 [Java命令详解](https://www.cnblogs.com/princessd8251/articles/4025140.html)  
 [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)  
 [Java中的时间和日期处理](https://blog.csdn.net/wangdong5678999/article/details/81159690)  
+[保留两位小数四种方法](https://blog.csdn.net/xhw035/article/details/52436800)
 
 ### 容器
 [深入理解HashMap](https://www.cnblogs.com/fsmly/p/11235484.html)  
@@ -26,6 +27,7 @@
 
 ## JVM
 [深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)
+[CPU利用率100%问题分析定位（HashMap中的环形引用）](/docs/java/jvm1.md)
 
 ### 其它
 [Java如何读取Excel行列](https://blog.csdn.net/yanglyangl429/article/details/51970810)  
@@ -98,6 +100,9 @@
 
 ## docker+k8s
 [10分钟看懂Docker和K8S](https://www.jianshu.com/p/f1f94c6968f5)  
+
+## Linux
+[top命令查看线程信息和jstack使用介绍](https://www.cnblogs.com/shengulong/p/8513652.html)
 
 ## 优秀资源
 [CS-Notes](https://github.com/CyC2018/CS-Notes)  
