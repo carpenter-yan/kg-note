@@ -6,6 +6,7 @@
 
 ## Java语言
 ### 语法
+[Java Runtime.exec()的使用](https://www.cnblogs.com/mingforyou/p/3551199.html)
 [Java命令详解](https://www.cnblogs.com/princessd8251/articles/4025140.html)  
 [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)  
 [Java中的时间和日期处理](https://blog.csdn.net/wangdong5678999/article/details/81159690)  
@@ -28,6 +29,8 @@
 ## JVM
 [深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)
 [CPU利用率100%问题分析定位（HashMap中的环形引用）](/docs/java/jvm1.md)
+[【开发工具】JAVA性能分析](https://me.csdn.net/weixin_33602978)
+[一次线上JVM调优实践，FullGC40次/天到10天一次的优化过程](https://blog.csdn.net/cml_blog/article/details/81057966)
 
 ### 其它
 [Java如何读取Excel行列](https://blog.csdn.net/yanglyangl429/article/details/51970810)  

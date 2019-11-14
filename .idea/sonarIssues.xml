@@ -48,7 +48,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-api/src/main/resources/conf/ump.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/PromotionEsDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/impl/PromotionEsDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-service/src/main/java/com/jd/jimi/pop/service/es/PromotionEsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-service/src/main/java/com/jd/jimi/pop/service/es/impl/PromotionEsServiceImpl.java">
           <value>
             <set />
           </value>
@@ -88,7 +108,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/EnumTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/FileTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/IntegerTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/ScenePromotionResult.java">
           <value>
             <set />
           </value>
@@ -99,6 +134,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../mall/mall-web/src/main/resources/conf/ump.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-domain/src/main/java/com.jd.xz.jimi3.ire.domain/enums/PrePromotionResult.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-rpc/src/main/java/com/jd/xz/jimi3/ire/rpc/impl/DataSendRpcServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/es/impl/PromotionEsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/reminder/impl/IntelligentReminderServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/utils/TraceUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-worker/src/main/java/com/jd/xz/jimi3/ire/worker/OrderRecommendTask.java">
           <value>
             <set />
           </value>
