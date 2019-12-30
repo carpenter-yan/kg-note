@@ -19,24 +19,39 @@
 
 ### 输入输出
 [迄今为止把同步/异步/阻塞/非阻塞/BIO/NIO/AIO讲的这么清楚的好文章](https://www.cnblogs.com/lixinjie/p/10811219.html)  
+[一篇文章帮你彻底搞清楚“I/O多路复用”和“异步I/O”的前世今生](https://www.cnblogs.com/lixinjie/p/a-post-tell-clearly-about-io-multiplexing-and-async-io.html)  
+[从源码理解Serializable](https://blog.csdn.net/u011315960/article/details/89963230)  
+[图解Protobuf编码](https://blog.csdn.net/zxhoo/article/details/53228303)  
 
 ### 网络
-[Java—网络编程总结（整理版）](https://www.cnblogs.com/swordfall/p/10781281.html)
+[Java—网络编程总结（整理版）](https://www.cnblogs.com/swordfall/p/10781281.html)  
+[目前为止最透彻的的Netty高性能原理和框架架构解析](http://www.52im.net/thread-2043-1-1.html)  
+[一文读懂高性能网络编程中的I/O模型](http://www.52im.net/thread-1935-1-1.html)  
+[一文读懂高性能网络编程中的线程模型](http://www.52im.net/thread-1939-1-1.html)  
 
 ### 多线程
 [线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)  
+[原子操作类AtomicInteger详解](https://blog.csdn.net/fanrenxiang/article/details/80623884)  
+[JUC线程框架深度解析](https://blog.csdn.net/androidsj/article/details/80167501)  
+[Java并发编程-看懂AQS的前世今生](https://www.cnblogs.com/iou123lg/p/9464385.html)  
+[Java多线程学习（吐血超详细总结）](https://blog.csdn.net/Evankaka/article/details/44153709)  
 
 ## JVM
-[深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)
-[CPU利用率100%问题分析定位（HashMap中的环形引用）](/docs/java/jvm1.md)
-[【开发工具】JAVA性能分析](https://me.csdn.net/weixin_33602978)
-[一次线上JVM调优实践，FullGC40次/天到10天一次的优化过程](https://blog.csdn.net/cml_blog/article/details/81057966)
+[深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)  
+[CPU利用率100%问题分析定位（HashMap中的环形引用）](/docs/java/jvm1.md)  
+[【开发工具】JAVA性能分析](https://me.csdn.net/weixin_33602978)  
+[一次线上JVM调优实践，FullGC40次/天到10天一次的优化过程](https://blog.csdn.net/cml_blog/article/details/81057966)  
+[JVM 中你不得不知的一些参数](https://www.cnblogs.com/fengzheng/p/11864192.html)  
+[详解 JVM Garbage First(G1) 垃圾收集器](https://blog.csdn.net/coderlius/article/details/79272773)  
+
 
 ### 其它
 [Java如何读取Excel行列](https://blog.csdn.net/yanglyangl429/article/details/51970810)  
 [JAVA面试题 请谈谈你对Sychronized关键字的理解？](https://www.cnblogs.com/marsitman/p/11235552.html)  
 
 ## 设计模式
+[简单工厂、工厂方法与抽象工厂的区别](https://blog.csdn.net/jerry11112/article/details/80618420)  
+[Java设计模式：23种设计模式全面解析](http://c.biancheng.net/design_pattern/)  
 
 ## Java生态
 ### Netty
@@ -67,6 +82,7 @@
 [不懂数据库索引的底层原理？那是因为你心里没点b树](https://www.cnblogs.com/sujing/p/11110292.html)  
 [互联网项目中mysql应该选什么事务隔离级别](https://www.cnblogs.com/rjzheng/p/10510174.html)
 [从原则、方案、策略及难点阐述分库分表](https://www.cnblogs.com/taozi32/p/9956362.html)  
+[MySQL 获得当前日期时间 函数](https://www.cnblogs.com/dreamboycx/p/11099425.html)  
 
 ## Oracle数据库
 
@@ -107,6 +123,9 @@
 ## Linux
 [top命令查看线程信息和jstack使用介绍](https://www.cnblogs.com/shengulong/p/8513652.html)
 
+## Git
+[Git 常用命令列表](https://www.cnblogs.com/ldj3/p/9172804.html)
+
 ## 优秀资源
 [CS-Notes](https://github.com/CyC2018/CS-Notes)  
 [Java学习+面试指南](https://github.com/Snailclimb/JavaGuide)  
@@ -114,5 +133,13 @@
 [ 互联网 Java 工程师进阶知识完全扫盲](https://github.com/doocs/advanced-java)  
 [算法（第4版）](https://github.com/jimmysuncpt/Algorithms)  
 [廖雪峰的官方网站](https://www.liaoxuefeng.com/)  
-[李新杰的博客园](https://www.cnblogs.com/lixinjie/)
-[Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)
+[李新杰的博客园](https://www.cnblogs.com/lixinjie/)  
+[Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)  
+[顶级程序员工具集](https://www.cnblogs.com/aobing/p/11930859.html)  
+[Java技术驿站-死磕系列](http://cmsblogs.com/)  
+
+## 优秀文章
+[阿里巴巴为什么能抗住90秒100亿？看完这篇你就明白了](https://mp.weixin.qq.com/s/aHPhuIPuGdqhDYQYgzlP_Q)  
+[UML和模式应用](https://www.cnblogs.com/smartjourneys/tag/UML%E5%92%8C%E6%A8%A1%E5%BC%8F%E5%BA%94%E7%94%A8/)  
+[enterprise architect](https://www.iteye.com/category/371836)  
+[领域模型驱动设计（Domain Driven Design）入门概述](https://blog.csdn.net/johnstrive/article/details/16805121)  
