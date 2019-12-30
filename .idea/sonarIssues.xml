@@ -223,6 +223,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/pattern/singleton.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/uml/class.md">
           <value>
             <set />
@@ -694,6 +699,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-worker/src/test/java/com/jd/xz/jimi3/ire/worker/OrderRecommendTaskTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-nlu/xz-jimi3-nlu-intent/src/main/java/com/jd/jimi3/nlu/intent/intentService/IntentService.java">
           <value>
             <set />
           </value>

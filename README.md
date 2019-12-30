@@ -2,7 +2,7 @@
 本项目旨在记录阅读过优秀文章，便于后期回顾。
 
 ## UML统一建模语言
-[UML类图总结（浅显易懂实用）](https://blog.csdn.net/ibukikonoha/article/details/80643959)
+[UML类图总结（浅显易懂实用）](https://blog.csdn.net/ibukikonoha/article/details/80643959)  
 
 ## Java语言
 ### 语法
