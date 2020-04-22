@@ -43,6 +43,7 @@
 [一次线上JVM调优实践，FullGC40次/天到10天一次的优化过程](https://blog.csdn.net/cml_blog/article/details/81057966)  
 [JVM 中你不得不知的一些参数](https://www.cnblogs.com/fengzheng/p/11864192.html)  
 [详解 JVM Garbage First(G1) 垃圾收集器](https://blog.csdn.net/coderlius/article/details/79272773)  
+[深入理解JVM-内存模型（jmm）和GC](https://www.jianshu.com/p/76959115d486)  
 
 
 ### 其它
@@ -137,6 +138,7 @@
 [Java工程师成神之路](https://github.com/hollischuang/toBeTopJavaer)  
 [顶级程序员工具集](https://www.cnblogs.com/aobing/p/11930859.html)  
 [Java技术驿站-死磕系列](http://cmsblogs.com/)  
+[mall项目](https://github.com/macrozheng/mall)  
 
 ## 优秀文章
 [阿里巴巴为什么能抗住90秒100亿？看完这篇你就明白了](https://mp.weixin.qq.com/s/aHPhuIPuGdqhDYQYgzlP_Q)  
