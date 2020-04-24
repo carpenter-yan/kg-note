@@ -858,6 +858,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-boot/src/main/java/com/jd/xz/jimi3/ire/boot/yace/MockPressureOrderMessagePublisher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-boot/src/main/java/com/jd/xz/jimi3/ire/boot/yace/MockPressureOrderMessagePublisherImpl.java">
           <value>
             <set />
@@ -874,6 +879,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-boot/src/main/resources/conf/important.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-boot/src/main/resources/conf/intentRule.properties">
           <value>
             <set />
           </value>
