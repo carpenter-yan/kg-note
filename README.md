@@ -58,7 +58,11 @@
 ### Netty
 ### Spring Core
 ### Spring Boot
+[Spring Boot自动配置的"魔法"是如何实现的？](https://sylvanassun.github.io/2018/01/08/2018-01-08-spring_boot_auto_configure/)  
+
 ### Spring Cloud
+[Spring Cloud 入门总结](https://juejin.im/post/5de2553e5188256e885f4fa3)  
+
 ### MyBatis
 ### Lombok
 [Lombok 介绍](https://blog.csdn.net/motui/article/details/79012846)  
@@ -148,3 +152,4 @@
 [程序员一般可以从什么平台接私活？](https://www.jianshu.com/p/3f84e090332a)  
 [博客园:程序自由之路](https://www.cnblogs.com/54chensongxia/category/1583159.html)  
 [盘点一下Github上开源的Java面试/学习相关的仓库，看完弄懂薪资至少增加10k](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247484789&idx=1&sn=2ad9fabb8fc7fae3bd3756ea05594344&chksm=cea24abef9d5c3a889b6cb8e00cb18abbb694d189c84a24fa1ed337ad4c56194cd39316dc6a5&token=1082669959&lang=zh_CN&scene=21#wechat_redirect)  
+[Learn Python in Y minutes](https://www.jianshu.com/p/1062bdd071cc)  
