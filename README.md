@@ -29,6 +29,8 @@
 [目前为止最透彻的的Netty高性能原理和框架架构解析](http://www.52im.net/thread-2043-1-1.html)  
 [一文读懂高性能网络编程中的I/O模型](http://www.52im.net/thread-1935-1-1.html)  
 [一文读懂高性能网络编程中的线程模型](http://www.52im.net/thread-1939-1-1.html)  
+[IO 模型知多少 | 理论篇](https://www.cnblogs.com/sheng-jie/p/how-much-you-know-about-io-models.html)  
+[IO 模型知多少 | 代码篇](https://www.cnblogs.com/sheng-jie/p/how-much-you-know-about-the-io-models-demo.html)  
 
 ### 多线程
 [线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)  
@@ -154,3 +156,13 @@
 [博客园:程序自由之路](https://www.cnblogs.com/54chensongxia/category/1583159.html)  
 [盘点一下Github上开源的Java面试/学习相关的仓库，看完弄懂薪资至少增加10k](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247484789&idx=1&sn=2ad9fabb8fc7fae3bd3756ea05594344&chksm=cea24abef9d5c3a889b6cb8e00cb18abbb694d189c84a24fa1ed337ad4c56194cd39316dc6a5&token=1082669959&lang=zh_CN&scene=21#wechat_redirect)  
 [Learn Python in Y minutes](https://www.jianshu.com/p/1062bdd071cc)  
+
+## 知识点分类
+1、Java并发  
+2、JVM  
+3、mysql  
+4、redis  
+5、开源框架spring, mybatis  
+6、分布式  
+7、微服务  
+8、性能优化
