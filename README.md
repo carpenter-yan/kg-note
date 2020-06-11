@@ -38,6 +38,9 @@
 [JUC线程框架深度解析](https://blog.csdn.net/androidsj/article/details/80167501)  
 [Java并发编程-看懂AQS的前世今生](https://www.cnblogs.com/iou123lg/p/9464385.html)  
 [Java多线程学习（吐血超详细总结）](https://blog.csdn.net/Evankaka/article/details/44153709)  
+[为什么要使用线程池?](https://dayarch.top/p/why-we-need-to-use-threadpool.html)  
+[面试问我，创建多少个线程合适？我该怎么说](https://www.cnblogs.com/FraserYu/p/12657701.html)  
+[【死磕Java并发】](https://blog.csdn.net/X5fnncxzq4/article/details/79336352)  
 
 ## JVM
 [深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)  
@@ -132,7 +135,8 @@
 [top命令查看线程信息和jstack使用介绍](https://www.cnblogs.com/shengulong/p/8513652.html)
 
 ## Git
-[Git 常用命令列表](https://www.cnblogs.com/ldj3/p/9172804.html)
+[Git 常用命令列表](https://www.cnblogs.com/ldj3/p/9172804.html)  
+[相见恨晚的 Git 命令动画演示，一看就懂！](https://www.cnblogs.com/lzkwin/p/12658029.html)  
 
 ## 优秀资源
 [CS-Notes](https://github.com/CyC2018/CS-Notes)  
@@ -156,6 +160,7 @@
 [博客园:程序自由之路](https://www.cnblogs.com/54chensongxia/category/1583159.html)  
 [盘点一下Github上开源的Java面试/学习相关的仓库，看完弄懂薪资至少增加10k](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247484789&idx=1&sn=2ad9fabb8fc7fae3bd3756ea05594344&chksm=cea24abef9d5c3a889b6cb8e00cb18abbb694d189c84a24fa1ed337ad4c56194cd39316dc6a5&token=1082669959&lang=zh_CN&scene=21#wechat_redirect)  
 [Learn Python in Y minutes](https://www.jianshu.com/p/1062bdd071cc)  
+[Sublime Text 3 全程详细图文原创教程](https://www.cnblogs.com/wind128/p/4409422.html)  
 
 ## 知识点分类
 1、Java并发  
