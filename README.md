@@ -150,6 +150,7 @@
 [顶级程序员工具集](https://www.cnblogs.com/aobing/p/11930859.html)  
 [Java技术驿站-死磕系列](http://cmsblogs.com/)  
 [mall项目](https://github.com/macrozheng/mall)  
+[JavaGuide面试突击版](https://snailclimb.gitee.io/javaguide-interview/#/)  
 
 ## 优秀文章
 [阿里巴巴为什么能抗住90秒100亿？看完这篇你就明白了](https://mp.weixin.qq.com/s/aHPhuIPuGdqhDYQYgzlP_Q)  
@@ -161,6 +162,7 @@
 [盘点一下Github上开源的Java面试/学习相关的仓库，看完弄懂薪资至少增加10k](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247484789&idx=1&sn=2ad9fabb8fc7fae3bd3756ea05594344&chksm=cea24abef9d5c3a889b6cb8e00cb18abbb694d189c84a24fa1ed337ad4c56194cd39316dc6a5&token=1082669959&lang=zh_CN&scene=21#wechat_redirect)  
 [Learn Python in Y minutes](https://www.jianshu.com/p/1062bdd071cc)  
 [Sublime Text 3 全程详细图文原创教程](https://www.cnblogs.com/wind128/p/4409422.html)  
+[Writing on GitHub](https://help.github.com/en/github/writing-on-github)  
 
 ## 知识点分类
 1、Java并发  
