@@ -31,6 +31,7 @@
 [一文读懂高性能网络编程中的线程模型](http://www.52im.net/thread-1939-1-1.html)  
 [IO 模型知多少 | 理论篇](https://www.cnblogs.com/sheng-jie/p/how-much-you-know-about-io-models.html)  
 [IO 模型知多少 | 代码篇](https://www.cnblogs.com/sheng-jie/p/how-much-you-know-about-the-io-models-demo.html)  
+[单台服务器并发TCP连接数到底可以有多少](http://www.52im.net/thread-561-1-1.html)  
 
 ### 多线程
 [线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)  
@@ -41,6 +42,7 @@
 [为什么要使用线程池?](https://dayarch.top/p/why-we-need-to-use-threadpool.html)  
 [面试问我，创建多少个线程合适？我该怎么说](https://www.cnblogs.com/FraserYu/p/12657701.html)  
 [【死磕Java并发】](https://blog.csdn.net/X5fnncxzq4/article/details/79336352)  
+[Spring之@Scheduled原理](https://www.jianshu.com/p/b2dbe92876f2)  
 
 ## JVM
 [深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)  
@@ -55,6 +57,7 @@
 ### 其它
 [Java如何读取Excel行列](https://blog.csdn.net/yanglyangl429/article/details/51970810)  
 [JAVA面试题 请谈谈你对Sychronized关键字的理解？](https://www.cnblogs.com/marsitman/p/11235552.html)  
+[IDEA里versionControl中(GIT工具)的log中的不同颜色是什么意思啊？](https://blog.csdn.net/Rinvay_Cui/article/details/93221750)  
 
 ## 设计模式
 [简单工厂、工厂方法与抽象工厂的区别](https://blog.csdn.net/jerry11112/article/details/80618420)  
@@ -94,6 +97,9 @@
 [互联网项目中mysql应该选什么事务隔离级别](https://www.cnblogs.com/rjzheng/p/10510174.html)
 [从原则、方案、策略及难点阐述分库分表](https://www.cnblogs.com/taozi32/p/9956362.html)  
 [MySQL 获得当前日期时间 函数](https://www.cnblogs.com/dreamboycx/p/11099425.html)  
+[一文读懂分库分表的技术演进](https://mp.weixin.qq.com/s/clQrAnxuxX_al7k6TPpgzw)  
+[高并发下数据库分库分表面试题整理](https://www.jianshu.com/p/05da0fc0950e)  
+[SQL运行内幕：从执行原理看调优的本质](https://www.itzhai.com/database/how-sql-works-understand-the-essence-of-tuning-by-the-execution-principle.html)  
 
 ## Oracle数据库
 
@@ -114,12 +120,16 @@
 [剖析ElasticSearch的索引原理](https://www.cnblogs.com/jajian/p/10737373.html)  
 [Elasticsearch－基础介绍及索引原理分析](https://www.cnblogs.com/dreamroute/p/8484457.html)  
 [ElasticSearch5.6.8（四）数据操作 - 增删查改（JAVA API - TransportClient）](https://blog.csdn.net/g1969119894/article/details/80169055)  
+[Elasticsearch 三种分页方式](https://blog.csdn.net/andybegin/article/details/83864171)  
+[Elasticsearch-Search After分页-Java示例](https://blog.csdn.net/m0_37862405/article/details/104577439)  
+[Elasticsearch架构原理](https://blog.csdn.net/wangnan9279/article/details/79287846)  
 
 ## Dubbo分布式服务框架
 [一文带你实现RPC框架](https://www.cnblogs.com/endless-code/p/11235624.html)  
 [一分钟弄懂什么是分布式和微服务](https://blog.csdn.net/zhonglunsheng/article/details/83153451)
 [阿里架构师怎样讲述Dubbo和Spring Cloud微服务架构](https://blog.csdn.net/qq_41587754/article/details/80133775)
-[一文详解微服务架构](https://www.cnblogs.com/skabyy/p/11396571.html)
+[一文详解微服务架构](https://www.cnblogs.com/skabyy/p/11396571.html)  
+[服务化框架技术选型与京东JSF解密](https://mp.weixin.qq.com/s/hureIGrLVKO7FLDOWdNjWA)  
 ## Hive
 
 ## Hbase
@@ -163,13 +173,9 @@
 [Learn Python in Y minutes](https://www.jianshu.com/p/1062bdd071cc)  
 [Sublime Text 3 全程详细图文原创教程](https://www.cnblogs.com/wind128/p/4409422.html)  
 [Writing on GitHub](https://help.github.com/en/github/writing-on-github)  
+[雪花算法的原理和实现Java](https://blog.csdn.net/lq18050010830/article/details/89845790?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)  
+[多图详解！10大高性能开发核心技术](https://www.cnblogs.com/xuanyuan/p/13524351.html)  
 
-## 知识点分类
-1、Java并发  
-2、JVM  
-3、mysql  
-4、redis  
-5、开源框架spring, mybatis  
-6、分布式  
-7、微服务  
-8、性能优化
+## 面试
+[Mybatis面试题总结](https://www.cnblogs.com/qmillet/p/12523636.html)  
+[SpringMVC常见面试题总结](https://blog.csdn.net/a745233700/article/details/80963758?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)  

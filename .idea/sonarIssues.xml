@@ -18,6 +18,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../JDmall/mall-web/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../aibi2-ma/aibi2-ma-boot/src/main/resources/spring/ctx-jsf.xml">
           <value>
             <set />
@@ -34,6 +39,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../aibi2-ma/aibi2-ma-rpc/src/main/java/com/jd/aibi2/ma/rpc/impl/IreApiServiceRpcImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../aibi2-ma/aibi2-ma-rpc/src/main/java/com/jd/aibi2/ma/rpc/route/ClusterDivertService.java">
           <value>
             <set />
           </value>
@@ -98,6 +108,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../finance/eureka-server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../finance/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot-answer/src/main/java/com/jd/isobk/sdk/rpc/impl/IsobkAnswerServiceImpl.java">
           <value>
             <set />
@@ -123,6 +143,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot/src/main/java/com/jd/isobk/knowledge/modules/intro/IntroModuleEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot/src/main/java/com/jd/isobk/knowledge/modules/ire/active/ActiveMarketingControllerEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot/src/main/java/com/jd/isobk/knowledge/modules/ire/cp/CPControllerEvent.java">
           <value>
             <set />
@@ -133,7 +163,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot/src/main/java/com/jd/isobk/knowledge/modules/knowledge/WareCompareControllerEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot/src/main/java/com/jd/isobk/knowledge/modules/scene/KSceneProductControllerEvent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-boot/src/main/resources/spring/ctx-jsf-consumer-isobk.xml">
           <value>
             <set />
           </value>
@@ -144,6 +184,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-common/src/main/java/com/jd/isobk/knowledge/common/Consts.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-dao/src/main/java/com/jd/isobk/knowledge/dao/sm/impl/SmSmsTemplateDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-dao/src/main/resources/mybatis-config.xml">
           <value>
             <set />
           </value>
@@ -168,7 +218,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-domain/src/main/java/com/jd/isobk/knowledge/domain/sm/SmSmsTemplateDo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-domain/src/main/java/com/jd/isobk/knowledge/domain/sm/SmsSignature.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-domain/src/main/java/com/jd/isobk/knowledge/domain/stats/SceneRecommendFacilitateOrderStats.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-rpc/src/main/java/com/jd/isobk/knowledge/rpc/ire/ManualPromotionRpcService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-rpc/src/main/java/com/jd/isobk/knowledge/rpc/ire/impl/ManualPromotionRpcServiceImpl.java">
           <value>
             <set />
           </value>
@@ -203,6 +273,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-sdk/src/main/java/com/jd/isobk/sdk/rpc/IsobkIreActiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-sdk/src/main/java/com/jd/isobk/sdk/rpc/IsobkIreService.java">
           <value>
             <set />
@@ -219,6 +294,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/cache/bot/impl/BotVenderCacheServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/etc/impl/OrderServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/etc/impl/RightServiceImpl.java">
           <value>
             <set />
           </value>
@@ -268,6 +353,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/scene/KSceneTypeSubscribeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/scene/impl/KSceneTypeSubscribeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/scene/impl/SceneProductServiceImpl.java">
           <value>
             <set />
@@ -284,6 +379,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/SmSceneService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/SmSmsSignatureService.java">
           <value>
             <set />
           </value>
@@ -323,6 +423,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/dto/SmManualDataDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/dto/SmManualPromotionDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/dto/SmManualQueryDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/dto/SmSceneInfoDto.java">
           <value>
             <set />
@@ -343,12 +458,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/impl/SmSmsSignatureServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/sm/impl/SmSmsTemplateModuleServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/window/impl/ImMessageServiceImpl.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/test/java/com/jd/isobk/knowledge/test/unit/service/ire/cp/IreSilentCpServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-worker/src/main/java/com/jd/isobk/knowledge/worker/etc/EtcOrderAlarmWorker.java">
           <value>
             <set />
           </value>
@@ -363,7 +493,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-api/src/main/resources/spring/ctx-jsf-client.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/ManualPromotion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/ManualPromotionDao.java">
           <value>
             <set />
           </value>
@@ -373,7 +518,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/impl/ManualPromotionEsDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-dao/src/main/java/com/jd/jimi/pop/dao/es/impl/PromotionEsDaoImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-domain/src/main/java/com/jd/jimi/pop/domain/es/ManualPromotion.java">
           <value>
             <set />
           </value>
@@ -383,7 +538,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-domain/src/main/java/com/jd/jimi/pop/domain/ire/ManualPromotionQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-rpc/src/main/java/com/jd/jimi/pop/rpc/impl/OrderSdkRpcServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-sdk/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-sdk/src/main/java/com/jd/jimi/pop/sdk/param/ManualPromotionQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-sdk/src/main/java/com/jd/jimi/pop/sdk/result/ManualPromotionVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-sdk/src/main/java/com/jd/jimi/pop/sdk/service/ChatMessageReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-sdk/src/main/java/com/jd/jimi/pop/sdk/service/ManualPromotionService.java">
           <value>
             <set />
           </value>
@@ -403,7 +588,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-service/src/main/java/com/jd/jimi/pop/service/es/ManualPromotionService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-service/src/main/java/com/jd/jimi/pop/service/es/PromotionEsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-service/src/main/java/com/jd/jimi/pop/service/es/impl/ManualPromotionServiceImpl.java">
           <value>
             <set />
           </value>
@@ -439,6 +634,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../jd-jimi-pop/jd-jimi-pop-worker/src/main/resources/spring/ctx-jsf-client.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../jd-jimi-pop/pom.xml">
           <value>
             <set />
           </value>
@@ -493,6 +693,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/java/thread.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/mysql/mysql.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/pattern/singleton.md">
           <value>
             <set />
@@ -539,6 +749,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_guava/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_guava/src/main/java/com/carpenter/yan/learn/RateLimitTest.java">
           <value>
             <set />
           </value>
@@ -603,6 +818,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/LRU.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/MapTest.java">
           <value>
             <set />
@@ -624,6 +844,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/StringTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/SystemTest.java">
           <value>
             <set />
           </value>
@@ -659,6 +884,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java/proxy/TransactionImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java8/DateTimeTester.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../learn_home/learn_java/src/main/java/com/carpenter/yan/java8/MessageFormatTest.java">
           <value>
             <set />
           </value>
@@ -838,6 +1073,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mall/mall-portal/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../mall/mall-rpc/src/main/java/com/jd/jimi/component/mall/rpc/lastbrowse/impl/LastBrowseWareServiceRpcImpl.java">
           <value>
             <set />
@@ -849,6 +1089,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../mall/mall-sdk/src/main/java/com/jd/jimi/component/mall/sdk/recommend/PromotionRecommendService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../mall/mall-search/pom.xml">
           <value>
             <set />
           </value>
@@ -968,6 +1213,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../mallGitHub/mall-common/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../shop-smart-web-gw/frontend/src/components/SmartCuiPay/QqCP/Set/index.js">
           <value>
             <set />
@@ -1019,6 +1269,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../user/src/test/java/com/example/springboot/user/UserApplicationTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-am/xz-jimi3-am-service/src/main/java/com/jd/jimi3/am/service/component/HandlerManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-am/xz-jimi3-am-service/src/main/java/com/jd/jimi3/am/service/component/ResponseComponent.java">
           <value>
             <set />
           </value>
@@ -1268,6 +1528,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-dao/src/main/resources/mybatis-config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-domain/pom.xml">
           <value>
             <set />
@@ -1308,6 +1573,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-domain/src/main/java/com.jd.xz.jimi3.ire.domain/enums/ManualPromotionStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-domain/src/main/java/com.jd.xz.jimi3.ire.domain/enums/PrePromotionResult.java">
           <value>
             <set />
@@ -1324,6 +1594,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-domain/src/main/java/com.jd.xz.jimi3.ire.domain/enums/StockStatus.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-domain/src/main/java/com.jd.xz.jimi3.ire.domain/es/ManualPromotion.java">
           <value>
             <set />
           </value>
@@ -1548,7 +1823,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/ManualPromotionService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/MessageReceiveService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/param/ManualPromotion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/param/ManualPromotionQuery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/param/ManualPromotionVO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/param/ManualPushContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/param/ManualPushRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-sdk/src/main/java/com/jd/xz/jimi3/ire/sdk/param/ManualPushResponse.java">
           <value>
             <set />
           </value>
@@ -1559,6 +1869,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/ChatMsgReceiveServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/es/ManualPromotionEsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/es/impl/EsSkuBrowseLogServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/es/impl/ManualPromotionEsServiceImpl.java">
           <value>
             <set />
           </value>
@@ -1579,6 +1904,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/isobk/impl/BotIdServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/manual/ManualPromotionServiceImpl.java">
           <value>
             <set />
           </value>
@@ -1708,6 +2038,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/ABLabelEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/SceneCfg.java">
           <value>
             <set />
@@ -1729,6 +2064,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/SceneRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/SceneResponse.java">
           <value>
             <set />
           </value>
@@ -1758,7 +2098,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/message/JimiMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/message/SMSMessage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/message/SceneCfg.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/message/SceneMessageCfgEnum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/data/message/SceneMessageNotPushReasonEnum.java">
           <value>
             <set />
           </value>
@@ -1844,6 +2204,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/handler/impl/SceneABTestHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/handler/impl/SceneAgainPushHandler.java">
           <value>
             <set />
           </value>
@@ -1948,6 +2313,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/addcart/ManualAddCartStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/addcart/chat/ChatMsgReceiver.java">
           <value>
             <set />
@@ -1988,6 +2358,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/business/CareConsultDiscountMasterStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/business/CareConsultDiscountSlaveStrategy.java">
           <value>
             <set />
@@ -1998,7 +2373,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/dto/CareActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/dto/CareSceneDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/limit/CareInvokeRateLimitStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/limit/CareSceneDDPushLimitStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/limit/XDaysConsultLimitStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/trigger/AbstractCareActivitySceneTrigger.java">
           <value>
             <set />
           </value>
@@ -2014,6 +2414,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/trigger/CareConsultDiscountSceneMasterTrigger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/care/trigger/com/jd/xz/jimi3/ire/service/scene/impl/care/trigger/CareActivitySceneMasterTrigger.java">
           <value>
             <set />
           </value>
@@ -2128,6 +2533,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/chat/ManualChatMessageStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/chat/ProtocolConstants.java">
           <value>
             <set />
@@ -2158,6 +2568,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/manual/ManualCuiOrderSceneStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/manual/ManualCuiPaySceneStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/price/ManualPriceReduceStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/price/PriceData.java">
           <value>
             <set />
@@ -2178,6 +2603,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silentorder/ManualSilentOrderSceneStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silentorder/SilentOrderSceneStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silentorder/limit/SilentOrderStatusLimitStrategy.java">
           <value>
             <set />
@@ -2188,12 +2623,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silenttailpay/ManualSilentPaySceneStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silenttailpay/SilentTailPaySceneStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silenttailpay/limit/SilentTailPayOrderStatusLimitStrategy.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/silenttailpay/listener/SilentTailPayMessageListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/impl/store/ManualStoreArriveStrategy.java">
           <value>
             <set />
           </value>
@@ -2233,7 +2683,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/strategy/business/AbstractSceneBusinessStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/strategy/business/Scene.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/strategy/business/SceneBusinessStrategy.java">
           <value>
             <set />
           </value>
@@ -2298,7 +2758,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/strategy/limit/impl/push/AbstractPushLimitStrategy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/trace/SceneTraceContext.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/trace/SceneTraceService.java">
           <value>
             <set />
           </value>
@@ -2314,6 +2784,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/trigger/test/TestTask1.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/util/ABTestUtils.java">
           <value>
             <set />
           </value>
@@ -2338,6 +2813,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/scene/util/dto/ABTestUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/send/impl/SendMessageImpl.java">
           <value>
             <set />
@@ -2349,6 +2829,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/silentpush/impl/silentpush/SilentCartPushServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/silentpush/impl/silentpush/SilentOrderPushServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/silentpush/impl/silentpush/SilentTailPayPushServiceImpl.java">
           <value>
             <set />
           </value>
@@ -2389,6 +2879,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/main/java/com/jd/xz/jimi3/ire/service/utils/TraceUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/test/java/com/jd/xz/jimi3/ire/rpc/impl/PromotionRpcServiceImplTest.java">
           <value>
             <set />
           </value>
@@ -2468,6 +2963,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/test/java/com/jd/xz/jimi3/ire/service/utils/DuccUtilsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-service/src/test/java/com/jd/xz/jimi3/ire/service/utils/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-worker/src/main/java/com/jd/xz/jimi3/ire/worker/DymaticsRecommendTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-ire/xz-jimi3-ire-worker/src/main/java/com/jd/xz/jimi3/ire/worker/OrderRecommendTask.java">
           <value>
             <set />
@@ -2493,7 +3003,42 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-engine/src/main/java/com/jd/jimi3/sa/engine/BehaviorTreeEngineService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-engine/src/main/java/com/jd/jimi3/sa/engine/action/AbstractActionNodeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-engine/src/main/java/com/jd/jimi3/sa/engine/action/TMActionNodeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-engine/src/main/java/com/jd/jimi3/sa/engine/control/AbstractControlNodeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-sdk/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-service/src/main/java/com/jd/jimi3/sa/service/sdk/impl/ScenarioAnalysisServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-sa/xz-jimi3-sa-service/src/main/java/com/jd/jimi3/sa/utils/ContextUpdater.java">
           <value>
             <set />
           </value>
