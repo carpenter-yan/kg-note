@@ -43,6 +43,7 @@
 [面试问我，创建多少个线程合适？我该怎么说](https://www.cnblogs.com/FraserYu/p/12657701.html)  
 [【死磕Java并发】](https://blog.csdn.net/X5fnncxzq4/article/details/79336352)  
 [Spring之@Scheduled原理](https://www.jianshu.com/p/b2dbe92876f2)  
+[透彻理解Java并发编程](https://segmentfault.com/blog/ressmix_multithread?page=1)  
 
 ## JVM
 [深入理解JVM(1)——Java内存区域与Java对象](https://crowhawk.github.io/2017/08/09/jvm_1/)  
@@ -140,6 +141,7 @@
 
 ## docker+k8s
 [10分钟看懂Docker和K8S](https://www.jianshu.com/p/f1f94c6968f5)  
+[Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)  
 
 ## Linux
 [top命令查看线程信息和jstack使用介绍](https://www.cnblogs.com/shengulong/p/8513652.html)
