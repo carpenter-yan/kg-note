@@ -110,6 +110,7 @@
 
 ## Kafka消息中间件
 [再过半小时，你就能明白kafka的工作原理了](https://www.cnblogs.com/sujing/p/10960832.html)  
+[kafka原理和实践](https://www.cnblogs.com/dennyzhangdd/p/7759869.html)  
 
 ## ES搜索引擎
 [Lucene就是这么简单](https://segmentfault.com/a/1190000013822385?utm_source=tag-newest)  
