@@ -143,6 +143,7 @@
 ## docker+k8s
 [10分钟看懂Docker和K8S](https://www.jianshu.com/p/f1f94c6968f5)  
 [Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)  
+[十分钟带你理解Kubernetes核心概念](http://www.dockone.io/article/932)  
 
 ## Linux
 [top命令查看线程信息和jstack使用介绍](https://www.cnblogs.com/shengulong/p/8513652.html)
@@ -182,3 +183,7 @@
 ## 面试
 [Mybatis面试题总结](https://www.cnblogs.com/qmillet/p/12523636.html)  
 [SpringMVC常见面试题总结](https://blog.csdn.net/a745233700/article/details/80963758?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)  
+
+
+## 开发工具
+[Sublime Text 3配置JavaScript开发环境](https://blog.csdn.net/lzhlzz/article/details/54848610?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.nonecase)  
