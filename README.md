@@ -37,6 +37,7 @@
 [线程池中你不容错过的一些细节](https://www.cnblogs.com/crossoverJie/p/10597875.html)  
 [原子操作类AtomicInteger详解](https://blog.csdn.net/fanrenxiang/article/details/80623884)  
 [JUC线程框架深度解析](https://blog.csdn.net/androidsj/article/details/80167501)  
+[你来讲讲AQS是什么吧？都是怎么用的？](https://www.cnblogs.com/jimoer/p/13747291.html)  
 [Java并发编程-看懂AQS的前世今生](https://www.cnblogs.com/iou123lg/p/9464385.html)  
 [Java多线程学习（吐血超详细总结）](https://blog.csdn.net/Evankaka/article/details/44153709)  
 [为什么要使用线程池?](https://dayarch.top/p/why-we-need-to-use-threadpool.html)  
