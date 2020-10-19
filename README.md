@@ -76,6 +76,7 @@
 
 ### Spring Cloud
 [Spring Cloud 入门总结](https://juejin.im/post/5de2553e5188256e885f4fa3)  
+[这三年被分布式坑惨了，曝光十大坑](https://mp.weixin.qq.com/s/kifv23_FPMUDQxY20oubeQ)  
 
 ### MyBatis
 ### Lombok
