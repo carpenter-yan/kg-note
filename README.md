@@ -67,6 +67,7 @@
 ## 设计模式
 [简单工厂、工厂方法与抽象工厂的区别](https://blog.csdn.net/jerry11112/article/details/80618420)  
 [Java设计模式：23种设计模式全面解析](http://c.biancheng.net/design_pattern/)  
+[Java 大白话讲解设计模式之 -- 建造者（Builder）模式](https://www.jianshu.com/p/afe090b2e19c)  
 
 ## Java生态
 ### Netty
