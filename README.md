@@ -74,6 +74,8 @@
 ### Spring Core
 ### Spring Boot
 [Spring Boot自动配置的"魔法"是如何实现的？](https://sylvanassun.github.io/2018/01/08/2018-01-08-spring_boot_auto_configure/)  
+[Spring Security 入门原理及实战](https://www.cnblogs.com/demingblog/p/10874753.html)  
+
 
 ### Spring Cloud
 [Spring Cloud 入门总结](https://juejin.im/post/5de2553e5188256e885f4fa3)  
