@@ -133,6 +133,7 @@
 [Elasticsearch 三种分页方式](https://blog.csdn.net/andybegin/article/details/83864171)  
 [Elasticsearch-Search After分页-Java示例](https://blog.csdn.net/m0_37862405/article/details/104577439)  
 [Elasticsearch架构原理](https://blog.csdn.net/wangnan9279/article/details/79287846)  
+[ES索引原理](https://www.jianshu.com/p/4aea8af7a9ea?utm_campaign=haruki)  
 
 ## Dubbo分布式服务框架
 [一文带你实现RPC框架](https://www.cnblogs.com/endless-code/p/11235624.html)  
