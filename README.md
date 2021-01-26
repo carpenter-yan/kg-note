@@ -193,6 +193,7 @@
 [多图详解！10大高性能开发核心技术](https://www.cnblogs.com/xuanyuan/p/13524351.html)  
 [阅站无数！不过我只推荐下面这些](https://www.cnblogs.com/cxuanBlog/p/14153069.html)  
 [图解 | 原来这就是网络](https://www.cnblogs.com/flashsun/p/14266148.html)  
+[冷饭新炒：理解Redisson中分布式锁的实现](https://www.cnblogs.com/throwable/p/14264804.html)  
 
 ## 面试
 [Mybatis面试题总结](https://www.cnblogs.com/qmillet/p/12523636.html)  
