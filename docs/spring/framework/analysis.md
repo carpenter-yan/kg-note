@@ -1,0 +1,24 @@
+### 核心类
+DefaultListableBeanFactory
+
+ClassPathResource
+
+XmlBeanDefinitionReader
+XmlValidationModeDetector
+DefaultDocumentLoader
+
+DefaultBeanDefinitionDocumentReader.processBeanDefinition
+BeanDefinitionParserDelegate
+GenericBeanDefinition
+BeanDefinitionRegistry
+
+DefaultNamespaceHandlerResolver
+
+## 加载
+AbstractBeanFactory.doGetBean
+AbstractAutowireCapableBeanFactory.doCreateBean
+
+
+## ApplicationContext
+AbstractApplicationContext.refresh
+AbstractRefreshableApplicationContext.refreshBeanFactory

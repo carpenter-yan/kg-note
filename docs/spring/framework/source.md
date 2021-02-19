@@ -1,4 +1,0 @@
-### 核心类
-DefaultListableBeanFactory
-XmlBeanDefinitionReader
-ClassPathResource
