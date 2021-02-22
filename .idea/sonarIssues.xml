@@ -898,6 +898,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-2-beanDefinition.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-2-definition.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-3-attributes.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2.md">
           <value>
             <set />
