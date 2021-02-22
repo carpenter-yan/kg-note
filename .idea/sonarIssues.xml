@@ -913,6 +913,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-4-meta.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-5-lookup-method.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-6-replace-method.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-6-replaced-method.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-7-constructor.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2.md">
           <value>
             <set />
@@ -4199,6 +4224,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../xz-jimi3-nlu/xz-jimi3-nlu-intent/src/main/java/com/jd/jimi3/nlu/intent/intentService/IntentService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-api/src/main/java/com/jd/jimi3/op/OrderPredictService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-web/src/main/java/com/jd/jimi3/op/bf/BloomFilter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-web/src/main/java/com/jd/jimi3/op/concurrent/OpTaskProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-web/src/main/java/com/jd/jimi3/op/es/OrderPredictEsDataService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-web/src/main/java/com/jd/jimi3/op/es/impl/OrderPredictEsDataServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-web/src/main/java/com/jd/jimi3/op/service/OrderPredictServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../xz-jimi3-op/xz-jimi3-op-web/src/main/resources/spring/spring-base.xml">
           <value>
             <set />
           </value>
