@@ -1,4 +1,6 @@
 ##解析各种属性
+BeanDefinitionParserDelegate.parseBeanDefinitionAttributes
+
 ```
 public AbstractBeanDefinition parseBeanDefinitionAttributes(Element ele, String beanName,
         BeanDefinition containingBean, AbstractBeanDefinition bd) {

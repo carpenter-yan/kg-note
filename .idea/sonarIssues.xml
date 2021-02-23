@@ -923,12 +923,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-5-lookup.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-6-replace-method.md">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-6-replaced-method.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-6-replaced.md">
           <value>
             <set />
           </value>

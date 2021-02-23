@@ -6,6 +6,8 @@
 TestMethodReplacer要求实现MethodReplacer接口。
 与之前的look-up不同的是，replaced-method不但可以动态地替换返回实体bean，而且还能动态地更改原有方法的逻辑。
 
+BeanDefinitionParserDelegate.parseReplacedMethodSubElements
+
 ```
 public void parseReplacedMethodSubElements(Element beanEle, MethodOverrides overrides) {
     NodeList nl = beanEle.getChildNodes();

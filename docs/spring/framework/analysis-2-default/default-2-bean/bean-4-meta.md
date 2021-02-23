@@ -4,6 +4,8 @@
 </bean>
 这段代码并不会体现在MyTestBean的属性当中，而是一个额外的声明，当需要使用里面的信息的时候可以通过BeanDefinition的getAttribute(key)方法进行获取。
 
+BeanDefinitionParserDelegate.parseMetaElements
+
 ```
 public void parseMetaElements(Element ele, BeanMetadataAttributeAccessor attributeAccessor) {
     NodeList nl = ele.getChildNodes();
