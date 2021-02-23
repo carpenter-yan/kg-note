@@ -378,6 +378,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/cache/JimClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../jd-isobk-knowledge/jd-isobk-knowledge-service/src/main/java/com/jd/isobk/knowledge/service/cache/bot/impl/BotVenderCacheServiceImpl.java">
           <value>
             <set />
@@ -908,6 +913,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-21-definition.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-3-attributes.md">
           <value>
             <set />
@@ -944,6 +954,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-7-constructor.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-8-property.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-9-qualifier.md">
           <value>
             <set />
           </value>
