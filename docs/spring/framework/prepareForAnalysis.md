@@ -87,3 +87,23 @@ public int registerBeanDefinitions(Document doc, Resource resource) throws BeanD
 单一职责原则，从xmlReader委托给documentReader。其真正类型是DefaultBeanDefinitionDocumentReader。
 documentReader.registerBeanDefinitions方法中获取了document的root节点并调用doRegisterBeanDefinitions继续完成注册。
 之前一直是XML加载解析的准备阶段，doRegisterBeanDefinitions算是真正开始解析了。
+
+###创建读取上下文
+XmlBeanDefinitionReader.createReaderContext
+```
+public XmlReaderContext createReaderContext(Resource resource) {
+    return new XmlReaderContext(resource, this.problemReporter, this.eventListener,
+            this.sourceExtractor, this, getNamespaceHandlerResolver());
+}
+
+public NamespaceHandlerResolver getNamespaceHandlerResolver() {
+    if (this.namespaceHandlerResolver == null) {
+        this.namespaceHandlerResolver = createDefaultNamespaceHandlerResolver();
+    }
+    return this.namespaceHandlerResolver;
+}
+
+protected NamespaceHandlerResolver createDefaultNamespaceHandlerResolver() {
+    return new DefaultNamespaceHandlerResolver(getResourceLoader().getClassLoader());
+}
+```
