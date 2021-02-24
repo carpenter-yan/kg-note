@@ -903,6 +903,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-10-entry.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-2-beanDefinition.md">
           <value>
             <set />
@@ -923,7 +928,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-30-decorate.md">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-4-meta.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-40-register.md">
           <value>
             <set />
           </value>
@@ -964,6 +979,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-2-bean/bean-9-qualifier.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-3-alias.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/docs/spring/framework/analysis-2-default/default-4-import.md">
           <value>
             <set />
           </value>

@@ -21,7 +21,7 @@ protected void processBeanDefinition(Element ele, BeanDefinitionParserDelegate d
 l. 首先委托BeanDefinitionDelegate类的parseBeanDefinitionElement方法进行元素解析，返回BeanDefinitionHolder类型的实例bdHolder，经过这个方法后，bdHolder实例已经包含我们配置文件中配置的各种属性了，例如class、name、id、alias之类的属性。
 2. 当返回的bdHolder不为空的情况下若存在默认标签的子节点下再有自定义属性，还需要再次对自定义标签进行解析。
 3. 解析完成后，需要对解析后的bdHolder进行注册。同样， 注册操作委托给了BeanDefinitionReaderUtils的registerBeanDefinition方法。
-4. 最后发出响应事件，通知相关的监昕器，这个bean已经加载完成了。
+4. 最后发出响应事件，通知相关的监昕器，这个bean已经加载完成了。这里的实现只为扩展，当程序开发人员需要对注册BeanDefinition事件进行监听时可以通过注册监听器的方式并将处理逻辑写入监听器中，目前在Spring 中并没有对此事件做任何逻辑处理。
 
 ### DefaultBeanDefinitionDocumentReader.parseBeanDefinitionElement
 ```
