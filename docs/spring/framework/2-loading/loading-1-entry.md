@@ -17,7 +17,7 @@ protected <T> T doGetBean(
     Object bean;
 
     // Eagerly check singleton cache for manually registered singletons.
-    //2.直接从缓存中获取或者singletonFactories中的ObjectFactory中获取
+    //2+.直接从缓存中获取或者singletonFactories中的ObjectFactory中获取
     Object sharedInstance = getSingleton(beanName);
     if (sharedInstance != null && args == null) {
         if (logger.isDebugEnabled()) {
@@ -85,12 +85,13 @@ protected <T> T doGetBean(
             }
 
             // Create bean instance.
-            //单例bean实例化
+            //8.单例bean实例化
             if (mbd.isSingleton()) {
                 sharedInstance = getSingleton(beanName, new ObjectFactory<Object>() {
                     @Override
                     public Object getObject() throws BeansException {
                         try {
+                            //*8*.普通bean封装一层FactoryBean
                             return createBean(beanName, mbd, args);
                         }
                         catch (BeansException ex) {
@@ -104,7 +105,7 @@ protected <T> T doGetBean(
                 });
                 bean = getObjectForBeanInstance(sharedInstance, name, beanName, mbd);
             }
-            //原型bean实例化
+            //9.原型bean实例化
             else if (mbd.isPrototype()) {
                 // It's a prototype -> create a new instance.
                 Object prototypeInstance = null;
@@ -197,3 +198,9 @@ protected <T> T doGetBean(
 
 9. 类型转换
 程序到这里返回bean后已经基本结束了，通常对该方法的调用参数requiredType是为空的，但是可能会存在这样的情况，返回的bean其实是个String ，但是requiredType却传入Integer类型，那么这时候本步骤就会起作用了，它的功能是将返回的bean转换为requiredType所指定的类型。当然，String转换为Integer 是最简单的一种转换，在Spring 中提供了各种各样的转换器，用户也可以自己扩展转换器来满足需求。
+
+###FactoryBean的使用
+当配置文件中<bean>的class属性是FactoryBean时，通过getBean()方法返回的不是FactoryBean本身，而是FactoryBean#getObject()方法所返回的对象，相当于FactoryBean#getObject()代理了getBean()方法。
+
+<bean id="car" class="com.test.factoryBean.CarFactoryBean" carInfo="超级跑次，400,200000”/>
+当调用getBean("car")时， Spring 通过反射机制发现CarFactoryBean实现了FactoryBean的接口，这时Spring容器就调用接口方法CarFactoryBean#getObject()方法返回。如果希望获取CarFactoryBean的实例，则需要在使用getBean(beanName)方法时在beanName前显示的加上"&"前缀，例如getBean("&car");
