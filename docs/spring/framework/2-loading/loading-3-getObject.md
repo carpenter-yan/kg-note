@@ -1,7 +1,7 @@
 ##从bean的实例中获取对象
 
+AbstractBeanFactory.getObjectForBeanInstance
 ```
-//AbstractBeanFactory.getObjectForBeanInstance
 protected Object getObjectForBeanInstance(
         Object beanInstance, String name, String beanName, RootBeanDefinition mbd) {
 

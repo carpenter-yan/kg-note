@@ -1,6 +1,6 @@
 ##获取单例
+DefaultSingletonBeanRegistry.getSingleton
 ```
-//DefaultSingletonBeanRegistry.getSingleton
 public Object getSingleton(String beanName, ObjectFactory<?> singletonFactory) {
     Assert.notNull(beanName, "'beanName' must not be null");
     //全局变量需同步
