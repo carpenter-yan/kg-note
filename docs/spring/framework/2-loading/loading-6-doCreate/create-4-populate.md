@@ -290,6 +290,7 @@ protected void applyPropertyValues(String beanName, BeanDefinition mbd, BeanWrap
 
     if (pvs instanceof MutablePropertyValues) {
         mpvs = (MutablePropertyValues) pvs;
+        //如果mpvs中的值已经被转换为对应的类型那么可以直接设置到beanwapper中
         if (mpvs.isConverted()) {
             // Shortcut: use the pre-converted values as-is.
             try {
@@ -304,9 +305,11 @@ protected void applyPropertyValues(String beanName, BeanDefinition mbd, BeanWrap
         original = mpvs.getPropertyValueList();
     }
     else {
+        //如果pvs并不是使用MutablePropertyValues封装的类型，那么直接使用原始的属性获取方法
         original = Arrays.asList(pvs.getPropertyValues());
     }
 
+    //获取对应的解析器
     TypeConverter converter = getCustomTypeConverter();
     if (converter == null) {
         converter = bw;
@@ -316,6 +319,7 @@ protected void applyPropertyValues(String beanName, BeanDefinition mbd, BeanWrap
     // Create a deep copy, resolving any references for values.
     List<PropertyValue> deepCopy = new ArrayList<PropertyValue>(original.size());
     boolean resolveNecessary = false;
+    //遍历属性，将属性转换为对应类的对应属性的类型
     for (PropertyValue pv : original) {
         if (pv.isConverted()) {
             deepCopy.add(pv);
