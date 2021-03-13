@@ -22,3 +22,24 @@ protected void initApplicationEventMulticaster() {
     }
 }
 ```
+
+SimpleApplicationEventMulticaster.multicastEvent
+```
+public void multicastEvent(final ApplicationEvent event, ResolvableType eventType) {
+    ResolvableType type = (eventType != null ? eventType : resolveDefaultEventType(event));
+    for (final ApplicationListener<?> listener : getApplicationListeners(event, type)) {
+        Executor executor = getTaskExecutor();
+        if (executor != null) {
+            executor.execute(new Runnable() {
+                @Override
+                public void run() {
+                    invokeListener(listener, event);
+                }
+            });
+        }
+        else {
+            invokeListener(listener, event);
+        }
+    }
+}
+```
