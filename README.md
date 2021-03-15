@@ -3,6 +3,7 @@
 
 [Markdown语法图文全面详解(10分钟学会)](https://blog.csdn.net/u014061630/article/details/81359144)  
 [Markdown语言详解](https://blog.csdn.net/zhaokaiqiang1992/article/details/41349819?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control)  
+[nginx系列之一：nginx入门](https://blog.csdn.net/qq_29677867/article/details/90112120)  
 
 ## Web前端
 [Vue.js + ElementUI](https://blog.csdn.net/vbirdbest/category_8507256.html)  
