@@ -91,5 +91,3 @@ public AopProxy createAopProxy(AdvisedSupport config) throws AopConfigException 
 2. proxyTargetClass：这个属性为true时，目标类本身被代理而不是目标类的接口。
    如果这个属性值被设为true, CGLIB 代理将被创建，设置方式为<aop:aspectj-autoproxy proxy-target-class="true"/>
 3. hasNoUserSuppliedProxyInterfaces：是否存在代理接口。
-
-### 2.获取代理
