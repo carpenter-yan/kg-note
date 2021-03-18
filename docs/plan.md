@@ -1,7 +1,12 @@
-1. spring 2  3.30
-2. mybatis 2
-3. springmvc 0.5 
-4. springboot 0.5 5.30
-5. springcloud 3 Eureka Hystrix Zuul 9.30
-6. netty 2 10.30
-7. dubbo 2 12.30
+1. spring 2  3.16 OK
+2. spring jdbc 17 
+3. spring mybatis 23 
+4. spring transaction 36 3.31 
+5. springmvc 49 
+6. springboot 34 4.15
+7. review 4.30
+
+8. mybatis 5.30
+9. springcloud 3 Eureka Hystrix Zuul 8.30
+10. dubbo 2 10.30 
+11. netty 2 12.30
