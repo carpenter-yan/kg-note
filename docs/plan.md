@@ -7,6 +7,6 @@
 7. review 4.30
 
 8. mybatis 5.30
-9. springcloud 3 Eureka Hystrix Zuul 8.30
-10. dubbo 2 10.30 
+9. dubbo 2 10.30
+10. springcloud 3 Eureka Hystrix Zuul 8.30
 11. netty 2 12.30
