@@ -1,6 +1,6 @@
-1. spring 2  3.16 OK
-2. spring jdbc 17 
-3. spring mybatis 23 
+1. spring 3.16 OK
+2. spring jdbc 3.18 OK
+3. spring mybatis 23  
 4. spring transaction 36 3.31 
 5. springmvc 49 
 6. springboot 34 4.15
