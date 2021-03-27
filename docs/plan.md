@@ -9,4 +9,12 @@
 8. mybatis 5.30
 9. dubbo 2 10.30
 10. springcloud 3 Eureka Hystrix Zuul 8.30
-11. netty 2 12.30
+//11. netty 2 12.30
+
+java
+mysql
+elasticsearch
+redis
+kafka
+spring security
+mongodb

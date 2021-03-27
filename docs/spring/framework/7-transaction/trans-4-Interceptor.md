@@ -28,7 +28,7 @@ protected Object invokeWithinTransaction(Method method, Class<?> targetClass, fi
     final TransactionAttribute txAttr = getTransactionAttributeSource().getTransactionAttribute(method, targetClass);
     // 2.加载配置中配置的TransactionManager
     final PlatformTransactionManager tm = determineTransactionManager(txAttr);
-    // 构造方法唯一标识(类.方法，如service.llserServiceImpl.save)
+    // 构造方法唯一标识(类.方法，如service.UserServiceImpl.save)
     final String joinpointIdentification = methodIdentification(method, targetClass, txAttr);
 
     // 3. 不同的事务处理方式使用不同的逻辑。

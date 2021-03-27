@@ -103,3 +103,7 @@ g)返回查询结果给用户。
 参考资料
 [Lucene介绍与使用](https://blog.csdn.net/weixin_42633131/article/details/82873731?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.control)
 
+match查询
+如果你在一个全文字段上使用match查询，在执行查询前，它将用正确的分析器去分析查询字符串：
+如果在一个精确值的字段上使用它，例如数字、日期、布尔或者一个not_analyzed 字符串字段，那么它将会精确匹配给定的值：
+对于精确值的查询，你可能需要使用filter语句来取代query，因为filter将会被缓存。接下来，我们将看到一些关于filter的例子。
