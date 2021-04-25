@@ -22,6 +22,9 @@ public class MybatisHelloWorld {
     }
 }
 ```
+或者使用新的mapper方式调用
+UserMapper mapper = session.getMapper(UserMapper.class);
+User user = mapper.getUser(1);
 
 org/mybatis/internal/example/Configuration.xml
 ```
