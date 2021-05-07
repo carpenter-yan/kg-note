@@ -1,4 +1,3 @@
-
 ### 0.节点解析
 ${driver}是在建立XNode节点时通关过PropertyParser解析
 ```
@@ -794,69 +793,3 @@ TypeHandlerRegistry.java
     ALL_TYPE_HANDLERS_MAP.put(handler.getClass(), handler);
   }
 ```
-
-### 14. 加载mapper文件mapperElement
-mappers节点下，配置我们的mapper映射文件，所谓的mapper映射文件，就是让mybatis用来建立数据表和javabean映射的一个桥梁。
-在我们实际开发中，通常一个mapper文件对应一个dao接口，这个mapper可以看做是dao的实现。所以,mappers必须配置。
-```
-<configuration>
-    ......
-    <mappers>
-      <!-- 第一种方式：通过resource指定 -->
-    <mapper resource="com/dy/dao/userDao.xml"/>
-    
-     <!-- 第二种方式， 通过class指定接口，进而将接口与对应的xml文件形成映射关系
-             不过，使用这种方式必须保证 接口与mapper文件同名(不区分大小写)， 
-             我这儿接口是UserDao,那么意味着mapper文件为UserDao.xml 
-     <mapper class="com.dy.dao.UserDao"/>
-      -->
-      
-      <!-- 第三种方式，直接指定包，自动扫描，与方法二同理 
-      <package name="com.dy.dao"/>
-      -->
-      <!-- 第四种方式：通过url指定mapper文件位置
-      <mapper url="file://........"/>
-       -->
-  </mappers>
-    ......
-</configuration>
-
-  mapperElement(root.evalNode("mappers"));
-  private void mapperElement(XNode parent) throws Exception {
-    if (parent != null) {
-      for (XNode child : parent.getChildren()) {
-        if ("package".equals(child.getName())) {
-          //如果mappers节点的子节点是package, 那么就扫描package下的文件, 注入进configuration
-          String mapperPackage = child.getStringAttribute("name");
-          configuration.addMappers(mapperPackage);
-        } else {
-          String resource = child.getStringAttribute("resource");
-          String url = child.getStringAttribute("url");
-          String mapperClass = child.getStringAttribute("class");
-          //resource, url, class 三选一
-          if (resource != null && url == null && mapperClass == null) {
-            ErrorContext.instance().resource(resource);
-            InputStream inputStream = Resources.getResourceAsStream(resource);
-            //mapper映射文件都是通过XMLMapperBuilder解析
-            XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, resource, configuration.getSqlFragments());
-            mapperParser.parse();
-          } else if (resource == null && url != null && mapperClass == null) {
-            ErrorContext.instance().resource(url);
-            InputStream inputStream = Resources.getUrlAsStream(url);
-            XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, url, configuration.getSqlFragments());
-            mapperParser.parse();
-          } else if (resource == null && url == null && mapperClass != null) {
-            Class<?> mapperInterface = Resources.classForName(mapperClass);
-            configuration.addMapper(mapperInterface);
-          } else {
-            throw new BuilderException("A mapper element may only specify a url, resource or class, but not more than one.");
-          }
-        }
-      }
-    }
-  }
-```
-对于通过package加载的mapper文件，调用mapperRegistry.addMappers(packageName);进行加载，
-其核心逻辑在org.apache.ibatis.binding.MapperRegistry中，
-对于每个找到的接口或者mapper文件，最后调用用XMLMapperBuilder进行具体解析。
-对于明确指定的mapper文件或者mapper接口，则主要使用XMLMapperBuilder进行具体解析。
