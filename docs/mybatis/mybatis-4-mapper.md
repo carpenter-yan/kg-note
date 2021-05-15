@@ -1,8 +1,6 @@
-## mapper加载与初始化
 前面说过mybatis mapper文件的加载主要有两大类，通过package加载和明确指定的方式。
 对于简单语句来说，使用注解代码会更加清晰，然而Java注解对于复杂语句比如同时包含了构造器、鉴别器、resultMap来说就会非常混乱，应该限制使用，
-此时应该使用XML文件，因为注解至少至今为止不像XML/Gradle一样能够很好的表示嵌套关系。
-mybatis完整的注解列表可参考org.apache.ibatis.annotations包。
+此时应该使用XML文件，因为注解不像XML/Gradle一样能够很好的表示嵌套关系。mybatis完整的注解列表可参考org.apache.ibatis.annotations包。
 
 ### 注解示例
 ```
@@ -143,13 +141,16 @@ mappers节点下，配置我们的mapper映射文件，所谓的mapper映射文�
   </mappers>
     ......
 </configuration>
+```
 
+## mapper加载与初始化
+```
   mapperElement(root.evalNode("mappers"));
   private void mapperElement(XNode parent) throws Exception {
     if (parent != null) {
       for (XNode child : parent.getChildren()) {
         if ("package".equals(child.getName())) {
-          //如果mappers节点的子节点是package, 那么就扫描package下的文件, 注入进configuration
+          //1. 如果mappers节点的子节点是package, 那么就扫描package下的文件, 注入进configuration
           String mapperPackage = child.getStringAttribute("name");
           configuration.addMappers(mapperPackage);
         } else {
@@ -160,16 +161,18 @@ mappers节点下，配置我们的mapper映射文件，所谓的mapper映射文�
           if (resource != null && url == null && mapperClass == null) {
             ErrorContext.instance().resource(resource);
             InputStream inputStream = Resources.getResourceAsStream(resource);
-            //mapper映射文件都是通过XMLMapperBuilder解析
+            //2. mapper映射文件都是通过XMLMapperBuilder解析
             XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, resource, configuration.getSqlFragments());
             mapperParser.parse();
           } else if (resource == null && url != null && mapperClass == null) {
             ErrorContext.instance().resource(url);
             InputStream inputStream = Resources.getUrlAsStream(url);
+            // 3. 按照resource加载
             XMLMapperBuilder mapperParser = new XMLMapperBuilder(inputStream, configuration, url, configuration.getSqlFragments());
             mapperParser.parse();
           } else if (resource == null && url == null && mapperClass != null) {
             Class<?> mapperInterface = Resources.classForName(mapperClass);
+            // 4. 按照类型进行加载
             configuration.addMapper(mapperInterface);
           } else {
             throw new BuilderException("A mapper element may only specify a url, resource or class, but not more than one.");
@@ -184,7 +187,7 @@ mappers节点下，配置我们的mapper映射文件，所谓的mapper映射文�
 对于每个找到的接口或者mapper文件，最后调用用XMLMapperBuilder进行具体解析。
 对于明确指定的mapper文件或者mapper接口，则主要使用XMLMapperBuilder进行具体解析。
 
-### 
+### 按照包名加载
 Configuration.java
 ```
   public void addMappers(String packageName) {
@@ -211,7 +214,11 @@ MapperRegistry.java
       addMapper(mapperClass);
     }
   }
-  
+```
+通过搜索包下的类文件最终统一为按照类型加载
+
+### 按照类型加载
+```
   public <T> void addMapper(Class<T> type) {
     // 对于mybatis mapper接口文件，必须是interface，不能是class
     if (type.isInterface()) {
@@ -221,12 +228,12 @@ MapperRegistry.java
       }
       boolean loadCompleted = false;
       try {
-        // 为mapper接口创建一个MapperProxyFactory代理
+        // 1. 为mapper接口创建一个MapperProxyFactory代理
         knownMappers.put(type, new MapperProxyFactory<>(type));
         // It's important that the type is added before the parser is run
         // otherwise the binding may automatically be attempted by the
         // mapper parser. If the type is already known, it won't try.
-        // MapperAnnotationBuilder进行具体的解析
+        // 2. MapperAnnotationBuilder进行具体的解析
         MapperAnnotationBuilder parser = new MapperAnnotationBuilder(config, type);
         parser.parse();
         loadCompleted = true;
@@ -253,6 +260,7 @@ public class MapperProxyFactory<T> {
 从定义看出，MapperProxyFactory主要是维护mapper接口的方法与对应mapper文件中具体CRUD节点的关联关系。
 其中每个Method与对应MapperMethod维护在一起。MapperMethod是mapper中具体映射语句节点的内部表示。
 
+### 标签解析
 MapperAnnotationBuilder.java
 ```
   static {

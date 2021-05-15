@@ -1,13 +1,32 @@
 #SqlSessionFactoryBuilder
 
 ### 0.builder流程
+```
+static {
+    try {
+        // 将mybatis配置文件转换为文件输入流reader
+        reader = Resources.getResourceAsReader("mybatis/config.xml");
+        //private static SqlSessionFactory ssf;
+        ssf = new SqlSessionFactoryBuilder().build(reader);
+    }
+    catch (IOException e) {
+        e.printStackTrace();
+    }
+}
+```
+
 SqlSessionFactoryBuilder.java
 ```
+  public SqlSessionFactory build(Reader reader) {
+    return build(reader, null, null);
+  }
+
   public SqlSessionFactory build(Reader reader, String environment, Properties properties) {
     try {
-      // 1. 构建xml配置解析器
+      // 1. 构建xml配置转化器
       XMLConfigBuilder parser = new XMLConfigBuilder(reader, environment, properties);
-      // 2. 解析xml文件然后构建SqlSessionFactory
+      // 2. parse()将document转换为Configuration
+      // 3. build()通过Configuration构建SqlSessionFactory
       return build(parser.parse());
     } catch (Exception e) {
       throw ExceptionFactory.wrapException("Error building SqlSession.", e);
@@ -41,7 +60,7 @@ XPathParser.java
     this.document = createDocument(new InputSource(reader));
   }
 
-  // commonConstructor并没有做什么
+  // 1.commonConstructor并没有做什么
   private void commonConstructor(boolean validation, Properties variables, EntityResolver entityResolver) {
     this.validation = validation;
     this.entityResolver = entityResolver;
@@ -50,7 +69,7 @@ XPathParser.java
     this.xpath = factory.newXPath();
   }
   
-  //主要是根据mybatis自身需要创建一个文档解析器，然后调用parse将输入input source解析为DOM XML文档并返回
+  // 2.主要是根据mybatis自身需要创建一个文档解析器，然后调用parse将输入input source解析为DOM XML文档并返回
   private Document createDocument(InputSource inputSource) {
     // important: this must only be called AFTER common constructor
     try {
@@ -91,31 +110,30 @@ XPathParser.java
   }
 ```
 
-得到XPathParser实例之后，就调用另一个使用XPathParser作为配置来源的重载构造函数了
-XMLConfigBuilder.java
+DocumentBuilderImpl.java
 ```
-  private XMLConfigBuilder(XPathParser parser, String environment, Properties props) {
-    super(new Configuration());
-    ErrorContext.instance().resource("SQL Mapper Configuration");
-    this.configuration.setVariables(props);
-    this.parsed = false;
-    this.environment = environment;
-    this.parser = parser;
-  }
+    public Document parse(InputSource is) throws SAXException, IOException {
+        if (is == null) {
+            throw new IllegalArgumentException(
+                DOMMessageFormatter.formatMessage(DOMMessageFormatter.DOM_DOMAIN,
+                "jaxp-null-input-source", null));
+        }
+        if (fSchemaValidator != null) {
+            if (fSchemaValidationManager != null) {
+                fSchemaValidationManager.reset();
+                fUnparsedEntityHandler.reset();
+            }
+            resetSchemaValidator();
+        }
+        domParser.parse(is);
+        Document doc = domParser.getDocument();
+        domParser.dropDocumentReferences();
+        return doc;
+    }
+```
+使用domParser解析得到Document。
 
-```
-
-其中调用了父类BaseBuilder的构造器（主要是设置类型别名注册器，以及类型处理器注册器）
-BaseBuilder.java
-```
-  public BaseBuilder(Configuration configuration) {
-    this.configuration = configuration;
-    this.typeAliasRegistry = this.configuration.getTypeAliasRegistry();
-    this.typeHandlerRegistry = this.configuration.getTypeHandlerRegistry();
-  }
-```
-
-### 2.解析xml文件然后构建SqlSessionFactory
+### 2.解析xml文件并转换为Configuration
 XMLConfigBuilder创建完成之后，SqlSessionFactoryBuild调用parser.parse()创建Configuration
 XMLConfigBuilder.java
 ```

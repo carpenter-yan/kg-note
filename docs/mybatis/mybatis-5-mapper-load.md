@@ -1,6 +1,6 @@
 ## mapper加载和初始化
-
 MapperBuilderAssistant初始化完成之后，就调用build.parse()进行具体的mapper接口文件加载与解析
+
 MapperAnnotationBuilder.java
 ```
   public void parse() {

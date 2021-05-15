@@ -194,7 +194,7 @@ mybatis主要提供两种类型的别名设置，具体类的别名以及包的�
   // 1. TypeAliasRegistry内部实际就是一个map
   private final Map<String, Class<?>> TYPE_ALIASES = new HashMap<>();
 
-  // 2. 构造器中定义了很多默认别名
+  // 2. 构造器中定义了很多默认别名，另外Configuration构造器中也定义了很多默认别名
   public TypeAliasRegistry() {
     registerAlias("string", String.class);
 
@@ -389,6 +389,7 @@ MyBatis每次创建结果对象的新实例时，它都会使用一个对象工�
 ```
 
 ### 10. 设置默认值
+将之前解析的<settings>元素的值设置到Configuration中
 ```
   private void settingsElement(Properties props) {
     configuration.setAutoMappingBehavior(AutoMappingBehavior.valueOf(props.getProperty("autoMappingBehavior", "PARTIAL")));
