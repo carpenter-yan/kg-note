@@ -7,7 +7,7 @@ MapperAnnotationBuilder.java
     String resource = type.toString();
     //首先根据mapper接口的字符串表示判断是否已经加载,避免重复加载,正常情况下应该都没有加载
     if (!configuration.isResourceLoaded(resource)) {
-      // 1、首先加载mapper接口对应的xml文件并解析
+      // 1、首先加载mapper接口对应的xml文件并解析  参考<mybatis-6-mapper-load.md>
       loadXmlResource();
       configuration.addLoadedResource(resource);
       // 每个mapper文件自成一个namespace，通常自动匹配就是这么来的，约定俗成代替人工设置最简化常见的开发(使用接口服务名作为namespace)
@@ -21,9 +21,6 @@ MapperAnnotationBuilder.java
         try {
           // issue #237
           // 4、解析非桥接方法。
-          /** 桥接方法是 JDK 1.5引入泛型后，为了使Java的泛型方法生成的字节码和1.5 版本前的字节码相兼容，由编译器自动生成的方法。
-            * 一个子类在继承（或实现）一个父类（或接口）的泛型方法时，在子类中明确指定了泛型类型，那么在编译时编译器会自动生成桥接方法。
-            * 只要在实现mybatis mapper接口的时，没有继承根Mapper或者继承了根Mapper但是没有写死泛型类型的时候，是不会成为桥接方法的。*/
           if (!method.isBridge()) {
             parseStatement(method);
           }
@@ -35,6 +32,52 @@ MapperAnnotationBuilder.java
     // 5、二次解析pending的方法。
     parsePendingMethods();
   }
+```
+### 1、首先加载mapper接口对应的xml文件并解析。
+loadXmlResource和通过resource、url解析相同，都是解析mapper文件中的定义，他们的入口都是XMLMapperBuilder.parse();
+参考<mybatis-6-mapper-load.md>
+
+### 2、解析缓存注解
+```
+  private void parseCache() {
+    CacheNamespace cacheDomain = type.getAnnotation(CacheNamespace.class);
+    if (cacheDomain != null) {
+      Integer size = cacheDomain.size() == 0 ? null : cacheDomain.size();
+      Long flushInterval = cacheDomain.flushInterval() == 0 ? null : cacheDomain.flushInterval();
+      Properties props = convertToProperties(cacheDomain.properties());
+      assistant.useNewCache(cacheDomain.implementation(), cacheDomain.eviction(), flushInterval, size, cacheDomain.readWrite(), cacheDomain.blocking(), props);
+    }
+  }
+```
+
+### 3、解析缓存参照注解。
+```
+  private void parseCacheRef() {
+    CacheNamespaceRef cacheDomainRef = type.getAnnotation(CacheNamespaceRef.class);
+    if (cacheDomainRef != null) {
+      Class<?> refType = cacheDomainRef.value();
+      String refName = cacheDomainRef.name();
+      if (refType == void.class && refName.isEmpty()) {
+        throw new BuilderException("Should be specified either value() or name() attribute in the @CacheNamespaceRef");
+      }
+      if (refType != void.class && !refName.isEmpty()) {
+        throw new BuilderException("Cannot use both value() and name() attribute in the @CacheNamespaceRef");
+      }
+      String namespace = (refType != void.class) ? refType.getName() : refName;
+      try {
+        assistant.useCacheRef(namespace);
+      } catch (IncompleteElementException e) {
+        configuration.addIncompleteCacheRef(new CacheRefResolver(assistant, namespace));
+      }
+    }
+  }
+```
+
+### 4、解析非桥接方法(注解解析)
+桥接方法是JDK1.5引入泛型后，为了使Java的泛型方法生成的字节码和1.5版本前的字节码相兼容，由编译器自动生成的方法。
+那什么时候，编译器会生成桥接方法呢，举个例子，一个子类在继承（或实现）一个父类（或接口）的泛型方法时，
+在子类中明确指定了泛型类型，那么在编译时编译器会自动生成桥接方法。
+```
 /****************************************************************************************************/
 
   void parseStatement(Method method) {
@@ -141,7 +184,7 @@ MapperAnnotationBuilder.java
     }
   }
   
-  /*****************************************************************************/
+重点来看没有带@ResultMap注解的查询方法parseResultMap(Method)：
   private String parseResultMap(Method method) {
     // 获取方法的返回类型
     Class<?> returnType = getReturnType(method);
@@ -157,8 +200,7 @@ MapperAnnotationBuilder.java
     return resultMapId;
   }
   
-  /******************************************************************************/
-  // 如果有resultMap设置了Id，就直接返回类名.resultMapId. 否则返回类名.方法名.以-分隔拼接的方法参数
+如果有resultMap设置了Id，就直接返回类名.resultMapId. 否则返回类名.方法名.以-分隔拼接的方法参数
   private String generateResultMapName(Method method) {
     Results results = method.getAnnotation(Results.class);
     if (results != null && !results.id().isEmpty()) {
@@ -175,7 +217,6 @@ MapperAnnotationBuilder.java
     return type.getName() + "." + method.getName() + suffix;
   }
   
-  /******************************************************************************/
   private void applyResultMap(String resultMapId, Class<?> returnType, Arg[] args, Result[] results, TypeDiscriminator discriminator) {
     List<ResultMapping> resultMappings = new ArrayList<>();
     applyConstructorArgs(args, returnType, resultMappings);
@@ -186,7 +227,6 @@ MapperAnnotationBuilder.java
     createDiscriminatorResultMaps(resultMapId, returnType, discriminator);
   }
   
-  /*******************************************************************************/
   private Discriminator applyDiscriminator(String resultMapId, Class<?> resultType, TypeDiscriminator discriminator) {
     if (discriminator != null) {
       String column = discriminator.column();
@@ -207,7 +247,6 @@ MapperAnnotationBuilder.java
     return null;
   }
   
-  /*****************************************************************************/
   private void createDiscriminatorResultMaps(String resultMapId, Class<?> resultType, TypeDiscriminator discriminator) {
     if (discriminator != null) {
       for (Case c : discriminator.cases()) {
@@ -218,6 +257,25 @@ MapperAnnotationBuilder.java
         applyResults(c.results(), resultType, resultMappings);
         // TODO add AutoMappingBehaviour
         assistant.addResultMap(caseResultMapId, c.type(), resultMapId, null, resultMappings, null);
+      }
+    }
+  }
+```
+
+### 5、二次解析pending的方法
+类似Spring，将第一次无法解析完的记录下，等其它元素解析完成后再从新解析一次。
+```
+  private void parsePendingMethods() {
+    Collection<MethodResolver> incompleteMethods = configuration.getIncompleteMethods();
+    synchronized (incompleteMethods) {
+      Iterator<MethodResolver> iter = incompleteMethods.iterator();
+      while (iter.hasNext()) {
+        try {
+          iter.next().resolve();
+          iter.remove();
+        } catch (IncompleteElementException e) {
+          // This method is still missing a resource
+        }
       }
     }
   }
