@@ -7,8 +7,8 @@
 7. review 4.30
 ---
 8. mybatis 5.30
-9. dubbo 2 10.30
-10. springcloud 3 Eureka Hystrix Zuul 8.30
+9. dubbo 2 7.30
+10. springcloud 3 Eureka Hystrix Zuul 10.30
 11. netty 2 12.30
 ---
 java
@@ -16,5 +16,9 @@ mysql
 elasticsearch
 redis
 kafka
+---
+linux+shell
+html+js
+hive+hbase
 spring security
 mongodb

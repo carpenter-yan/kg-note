@@ -23,3 +23,4 @@
 [elasticsearch系列七：ES Java客户端-Elasticsearch Java client](https://blog.csdn.net/qq_26676207/article/details/81019677?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)  
 [Elasticsearch Java Rest Client API 整理总结 (一)——Document API](https://www.cnblogs.com/reycg-blog/p/9931482.html)  
 [Elasticsearch Query DSL 整理总结（一）](https://www.cnblogs.com/reycg-blog/p/10000052.html)
+[ElasticSearch java API - 聚合查询](https://www.cnblogs.com/luweiweicode/p/14241312.html)  
