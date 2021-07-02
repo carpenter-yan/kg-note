@@ -1,0 +1,1 @@
+[Java中生成随机数的4种方式！](https://www.cnblogs.com/vipstone/p/14884095.html)  

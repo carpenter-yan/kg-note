@@ -32,6 +32,8 @@
 [一篇文章帮你彻底搞清楚“I/O多路复用”和“异步I/O”的前世今生](https://www.cnblogs.com/lixinjie/p/a-post-tell-clearly-about-io-multiplexing-and-async-io.html)  
 [从源码理解Serializable](https://blog.csdn.net/u011315960/article/details/89963230)  
 [图解Protobuf编码](https://blog.csdn.net/zxhoo/article/details/53228303)  
+[hessian messagePack protocolbuffer 序列化协议分析](https://www.cnblogs.com/fish-in-sky/p/9819098.html)  
+
 
 ### 网络
 [Java—网络编程总结（整理版）](https://www.cnblogs.com/swordfall/p/10781281.html)  
@@ -128,6 +130,7 @@
 ## Kafka消息中间件
 [再过半小时，你就能明白kafka的工作原理了](https://www.cnblogs.com/sujing/p/10960832.html)  
 [kafka原理和实践](https://www.cnblogs.com/dennyzhangdd/p/7759869.html)  
+[高性能队列设计](https://www.cnblogs.com/xiekun/p/14922241.html)  
 
 ## 微服务
 [微服务下的网关如何选择](https://www.cnblogs.com/wtzbk/p/14009219.html)  
@@ -169,6 +172,9 @@
 [Java技术驿站-死磕系列](http://cmsblogs.com/)  
 [mall项目](https://github.com/macrozheng/mall)  
 [JavaGuide面试突击版](https://snailclimb.gitee.io/javaguide-interview/#/)  
+[Dubbo源码分析](https://segmentfault.com/u/crazyhzm/articles?page=3)  
+[分布式任务调度框架](https://blog.csdn.net/qq924862077/category_9279431.html)  该用户下还有其它系列文章
+[那些惊艳的算法们](https://blog.csdn.net/xinzhongtianxia/category_7891205.html)  
 
 ## 优秀文章
 [阿里巴巴为什么能抗住90秒100亿？看完这篇你就明白了](https://mp.weixin.qq.com/s/aHPhuIPuGdqhDYQYgzlP_Q)  
@@ -194,6 +200,9 @@
 
 ## 开发工具
 [Sublime Text 3配置JavaScript开发环境](https://blog.csdn.net/lzhlzz/article/details/54848610?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.nonecase)  
+[Java常见bean mapper的性能及原理分析](https://albenw.github.io/posts/f6a7daea/)  
+[JMH使用指南](https://blog.csdn.net/xiandafu/article/details/94029094)  
+[深入理解Java：内省(Introspector)](https://www.cnblogs.com/peida/archive/2013/06/03/3090842.html)  
 
 [19 个接私活平台汇总升级版，你有技术就有钱](https://mp.weixin.qq.com/s/r1NB2FGYeQ3o76Gk-Idyyw)  
 

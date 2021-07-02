@@ -4,9 +4,9 @@
 4. spring transaction 36 3.31 OK 
 5. springmvc 49 OK
 6. springboot 34 4.15 OK
-7. review 4.30
+7. review 4.30 OK
 ---
-8. mybatis 5.30
+8. mybatis 6.10 OK
 9. dubbo 2 7.30
 10. springcloud 3 Eureka Hystrix Zuul 10.30
 11. netty 2 12.30

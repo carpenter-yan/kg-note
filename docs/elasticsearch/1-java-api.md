@@ -53,4 +53,3 @@ client.search(request) / client.search(request).get()
 3.8 suggest
 3.9 aggregation
 以上3个不常用，可以参考资料。
-
